@@ -28,7 +28,7 @@ export default class VueSocketIO {
      * @param Vue
      */
     install(Vue){
-	
+	Logger.info(`Vue.config.globalProperites : ${ Boolean(Vue.config.globalProperties) ? 'ok' : 'bad' }`);	
 	Vue.config.globalProperties.$socket = this.io;
         Vue.config.globalProperties.$vueSocketIo = this;	
         
