@@ -1,4 +1,5 @@
 <p align="center">
+    ! This version is just a shitty patch to get this to work with Vue3 !
     <a href="https://github.com/MetinSeylan/Vue-Socket.io" target="_blank">
     <img width="250" src="https://raw.githubusercontent.com/MetinSeylan/Vue-Socket.io/master/docs/logo.png">
     </a>
