@@ -1,8 +1,8 @@
 {
-  "name": "vue-socket.io",
+  "name": "@maticbabnik/vue-socket.io",
   "author": "Metin Seylan <metinsyln@gmail.com>",
-  "version": "3.0.10",
-  "description": "socket.io implementation for Vue.js and Vuex",
+  "version": "3.3.4",
+  "description": "socket.io implementation for Vue3 and Vuex",
   "main": "dist/vue-socketio.js",
   "scripts": {
     "build": "webpack --mode=production --progress --hide-modules"
@@ -25,11 +25,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MetinSeylan/Vue-Socket.io/issues"
+    "url": "https://github.com/fubuki-fanclub/Vue-Socket.io/issues"
   },
-  "homepage": "https://github.com/MetinSeylan/Vue-Socket.io",
+  "homepage": "https://github.com/fubuki-fanclub/Vue-Socket.io",
   "dependencies": {
-    "socket.io-client": "^2.1.1"
+    "socket.io-client": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

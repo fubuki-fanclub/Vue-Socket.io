@@ -38,8 +38,9 @@ export default {
 
     /**
      * unsubscribe when component unmounting
+     * This breaks vue2 support
      */
-    beforeDestroy(){
+    beforeUnmount(){
 
         if(this.$options.sockets){
 

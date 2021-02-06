@@ -24,13 +24,15 @@ export default class VueSocketIO {
 
     /**
      * Vue.js entry point
+     * This shit breaks vue2 support
      * @param Vue
      */
     install(Vue){
-
-        Vue.prototype.$socket = this.io;
-        Vue.prototype.$vueSocketIo = this;
-        Vue.mixin(Mixin);
+	
+	Vue.config.globalProperties.$socket = this.io;
+        Vue.config.globalProperties.$vueSocketIo = this;	
+        
+	Vue.mixin(Mixin);
 
         Logger.info('Vue-Socket.io plugin enabled');
 
